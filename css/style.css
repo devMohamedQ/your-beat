@@ -1,0 +1,961 @@
+.head{
+    background-color: #CCCC;
+    margin: 0;
+    padding: 0;
+}
+/*---------start header---------*/
+.header{
+    margin-top: -20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #58939b;
+    width: 90%;
+    height: auto;
+    box-shadow: 0px 24px 22px #325058;
+}
+.header h2{
+    color: #8fc4ca;
+    font-size: 90px;
+    font-weight: bold;
+    width: 500px;
+    margin-left: 34%;
+    padding-top: 20px;
+    text-shadow: 4px -7px 14px #101617,
+         5px 5px 7px #FFF,
+        -91px 16px 104px #FFF,
+         44px 44px 80px #FFF,
+        119px -12px 92px #FFF;
+}
+ .header h2 span{
+    position: absolute;
+     top: 60px;
+    font-size: 87px;
+     font-weight:normal;
+     font-family:fantasy;
+     padding-left: 1%;
+     text-shadow: 4px -7px 14px #101617,
+         5px 5px 7px #FFF,
+         -2px 57px 141px #FFF,
+         129px 70px 117px #FFF,
+         76px -48px 133px #FFF;
+}
+.header .line{
+    margin-left: 30%;
+    height: 3px;
+    width: 38%;
+    background-color: #afd1d2;
+    margin-top: 13px;
+}
+
+.title{
+    margin-left: 33%;
+    margin-top: 35px;
+}
+
+.header i.fa-headphones{
+    color:#FFF;
+}
+.header .i{
+    font-size: 30px;
+    color: #FFF;
+}
+.fa-headphones{
+  transform-origin: top center;
+  animation-name: swing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both}
+  @-webkit-keyframes swing {
+  10% {transform: rotate3d(0, 0, 1, 15deg)}
+  20% {transform: rotate3d(0, 0, 1, -10deg)}
+  30% {transform: rotate3d(0, 0, 1, 5deg);color:aqua}
+  40% {transform: rotate3d(0, 0, 1, -5deg)}
+  50% {transform: rotate3d(0, 0, 1, 0deg);color:lightcoral}
+  60% {transform: rotate3d(0, 0, 1, 15deg)}
+  70% {transform: rotate3d(0, 0, 1, -10deg)}
+  80% {transform: rotate3d(0, 0, 1, 5deg);color:navajowhite}
+  90% {transform: rotate3d(0, 0, 1, -5deg)}
+  100% {transform: rotate3d(0, 0, 1, 0deg);color:red}
+}
+
+
+            /*----end header -------*/
+
+/*--------start navbar A---------------*/
+
+.navbar .container-fluid{
+    background-color:#58939b;
+    height: 50px;
+    margin-top: 20px;
+    margin: 0
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border: 2px solid #58939b;
+        border: none;
+}
+.navbar{
+    border: none;
+    margin-top: 45px;
+    margin-left: 0
+}
+.collapse ul:last-child{border-right: 2px solid #38545f;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:#FFF;
+    font-size: 20px;
+    border-left: 2px solid #38545f;
+    text-transform: capitalize;
+    transition: all .6s
+}
+.navbar-default .navbar-nav>li>a:hover{box-shadow: 1px 10px 50px 6px #FFF inset;color: #000}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{margin-left: -80px}
+
+ .navbar-default .navbar-toggle .icon-bar{background-color: #FFF}
+.navbar-default
+.navbar-toggle:hover{
+    background-color: #b2b3bd;
+    box-shadow: 0px 5px 10px #000
+}
+.navbar-default
+.navbar-nav>li>a{
+    text-align: center;
+    margin-top: 0
+}
+.navbar{z-index: 9999}
+/*-----------end navbar A------------*/
+        /* start last page------*/
+.last-page{
+    background: linear-gradient(90deg, #cdcdcd, gray);
+    width: 86%;
+    margin-top: -20px;
+    margin-left: 7%;
+    box-shadow: 2px 82px 121px #325058
+}
+.last-page .last-a,
+.last-page .last-c{
+    font-size: 25px;
+    color:gray ;
+    font-weight: bold;
+    margin-top: 66px;
+}
+.last-page .last-c{
+    color:#000
+}
+        /*------start carusel-----*/
+
+.carousel-inner {
+    margin-top: 50px
+}
+.carousel-control,
+.carousel-control{
+    width: 2px;
+    height: 2px;
+    margin-top: 50px;
+}
+.item h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #757575;
+}
+.item span{
+    color: #60a5ac;
+    font-size: 40px
+}
+/*--------end---- carusel---------*/
+
+        /*------start-hide & show imge ---*/
+.file{
+    margin-top: 35px
+}
+
+.file .left .left-list{
+    height: 41px;
+    list-style: none;
+    background-color: #58939b;
+    margin-bottom: 34px;
+    padding-top: 7px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: -13px -7px 10px #000;
+        transition: all .5s;
+    border-radius: 20px
+}
+.file .left .left-list:hover{
+    background-color: #325058;
+    box-shadow: -7px 15px 10px #58939b;
+
+}
+
+.active{display: block}
+.remove{display: none}
+
+/*-------end hide & show imge ---*/
+
+            /*--start page about  history--*/
+.far-away{
+    margin-top: 75px;
+    background: linear-gradient(90deg, #325058, #cdcdcd, dodgerblue );
+}
+
+.far-away h2{
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 30px;
+    color:#0e324c;
+    font-family:serif;
+    font-family: fantasy;
+    text-shadow: 0px 0px 13px #FFF
+}
+
+.far-away i{animation:slide 2s infinite linear;position: relative}
+
+@keyframes slide{
+    0%{top: 15px}
+    100%{color:orangered}
+}
+.far-away p{
+    padding-left: 5%;
+    margin-top: 5%;
+    color: #0e324c;
+    font-weight: bolder;
+    line-height: 2;
+    text-shadow: 0px 0px 13px #FFF;
+}
+
+.far-away img{margin-top:8%;margin-bottom: 8%}
+/*-------end page about  history--------*/
+
+        /*-----start slide div blog---*/
+.blog h2, h3{ 
+    padding-bottom: 3%;
+    font-size: 30px;
+    color:#325058;
+    font-family:serif;
+    font-weight: bold
+}
+
+.blog img{margin: auto} 
+
+.blog h3{
+    font-size: 26px;
+}
+.blog span{
+    color:  #58939b;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px  #000;
+}
+.blog button{
+    margin-left: 8%;
+    margin-bottom: 35px;
+    background-color: #58939b;
+    width: 90px;
+    height: 38px;
+    color: aliceblue;
+    border:1px solid #FFF;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #325058;
+    transition: all .6s;
+    font-weight: bold
+}
+.blog button:hover{
+    box-shadow: 12px 7px 35px 1px #FFF inset,
+    -7px 0px 16px #325058;
+    color: #000;
+}
+.blog-c{
+    background-image: url(../img/Drops-wallpaper-8843546.jpg);
+    background-size: cover;
+}
+.blog-c p{color: aliceblue;margin-top: 29px}
+.blog-c h4{color: #58939b}
+
+.fa-angle-down{cursor: pointer}
+
+.blog-a, .blog-b, .blog-c{display: none}
+
+.move{float: right }
+            /*---------end slide div blog--------*/
+
+/*---start option fadeout div */
+.option{overflow: hidden;height: 480px}
+
+
+
+.option-a, .option-b{
+    width: 90%;
+    background-image: url(../img/Colors-wallpaper-10621380.jpg);
+    background-size: cover;
+    margin-left: 4%;
+    margin-top: 60px;
+    padding-left: 5%;
+    color: aliceblue
+}
+.option-a h2, .option-b h2{
+    font-size: 25px;
+    font-weight: bolder;
+    background-color:red;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 157px;
+    height: 50px;
+    padding-top: 9px;
+    position: relative;
+    top: -44px;
+}
+.option-a h1, .option-b h1{
+    font-size: 50px;
+    font-family: fantasy;
+    padding-left: 60px;
+    margin-bottom: 55px;
+    margin-top: 20px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.option-a i, .option-b i{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: red;
+    border-radius: 5px;
+    width: 153px;
+    height: 156px;
+    position: relative;
+    padding-top: 44px;
+    top: 44px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.option-a strong{color: red}
+.option-b strong{color: orangered}
+
+.option-b i, .option-b h2{background-color: orangered}
+
+.option-a h3, .option-b h3{
+    font-size: 30px;
+    font-family:serif;
+    letter-spacing: 4px;
+    color: aliceblue;
+    margin-top: 66px;
+    color: red
+}
+.option-b h3{color:orangered}
+.option-a h3 span, .option-b h3 span{
+    font-size: 20px;
+    font-family:sans-serif;
+    padding-top: 10px;
+    
+}
+.option-a p, .option-b p{padding: 1%}
+.option-b{display: none}
+
+/*---end option fadeout div---------- */
+
+/*-------start option fadeout div*/
+
+#scrolltop{
+    display: none;
+    position: fixed;
+    left: 10px;
+    bottom: 196px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    opacity: .5;
+    z-index: 999;
+    animation:nav 2s infinite linear 
+}
+@keyframes nav{
+    100%{transform: rotatez(360deg)}
+}
+#scrolltop:hover{opacity: 1}
+.navbar-b{
+    width: 130px;
+    height: 400px;
+    background-color: rgba(112, 154, 175,0.7);
+    position: fixed;
+    left: 0;
+    bottom: 180px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none
+}
+.navbar-b .nav-b{
+    list-style: none;
+    padding-top: 20px;
+
+}
+.navbar-b .nav-b li{
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: red;
+    color: aliceblue;
+    width: 119px;
+    height: 0;
+    padding-top: 0;
+    margin-left: -36px;
+    font-size:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.navbar-b{z-index: 99}
+/*-------end option fadeout div*/
+
+                    /*-----start skils-------*/
+
+.skils{
+    width: 100%;
+    height: 600px;
+    margin-top: 65px;
+    
+}
+                /*--start-div 1-----*/
+.inf-part-1{
+    
+    width: 53%;
+    background-color: #5f2d5f;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    color: aliceblue;
+    position: relative;
+    left: 1px/*585*/
+}
+.inf-part-1 span{color: red;
+    width: 10%;
+    height: 80%;
+    padding-left:2%;
+    font-size: 55px;
+}
+.inf-part-1 .right{
+    float: right;
+    margin-right: 20%;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    width: 65%;
+    
+}
+.skils .row{margin-right: 0px;margin-left: 0px}
+
+.inf-1 .icon{
+     width: 140px;
+    height: 140px;
+    background-color: #f3eeee;
+    position: relative;
+    top: 0;
+    left: -85px;/*  -685px  */
+    box-shadow: 0px 0px 38px #5f2d5f inset, 0px 0px 41px #5f2d5f;
+    padding:25px;
+    transform: rotate(45deg);
+    cursor: pointer
+} 
+.inf-1 .icon div{
+    width: 89px;
+    height: 84px;
+    background-color: #FFF;
+    padding: 22px;
+    padding-top: 14px;
+    box-shadow: 0px 0px 38px #5f2d5f inset, 0px 0px 41px #5f2d5f;
+    cursor: pointer
+}
+.inf-1 .icon div i{
+    transform: rotate(-45deg);
+    cursor: pointer;
+    color: orange
+}
+
+            /*-----------start--div 2 -----*/
+
+.inf-part-2{
+    
+    width: 47%;
+    background-color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    color: aliceblue;
+    position: relative;
+    margin-top: 70px;
+    left: 1px/*585*/
+}
+.inf-part-2 span{color: red;
+    width: 10%;
+    height: 80%;
+    padding-left:2%;
+    font-size: 55px;
+}
+.inf-part-2 .right{
+    float: right;
+    margin-right: 30%;
+    border-top: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    width: 53%;
+    
+}
+
+.inf-2 .icon{
+     width: 140px;
+    height: 140px;
+    background-color: #f3eeee;
+    position: relative;
+    top: 57px;
+    left: -89px;/*  -685px  */
+    box-shadow: 0px 0px 38px dodgerblue inset, 0px 0px 41px dodgerblue;
+    padding:25px;
+    transform: rotate(45deg);
+    cursor: pointer
+} 
+.inf-2 .icon div{
+    width: 89px;
+    height: 84px;
+    background-color: #FFF;
+    padding: 22px;
+    padding-top: 14px;
+    box-shadow: 0px 0px 38px dodgerblue inset, 0px 0px 41px dodgerblue;
+    cursor: pointer
+}
+.inf-2 .icon div i{
+    transform: rotate(-45deg);
+    cursor: pointer;
+    color: dodgerblue
+}
+
+/*-----end div 2------*/
+.skils .info-part-1, .skils .info-part-2, .skils .info-part-3{display: none}
+
+.oof{border-radius: 50%;
+    float: right;
+    margin-top: -283px;
+    opacity: 0;
+    transition: 2s;
+}
+.of{opacity: 1;margin-right: 15%}
+.off{margin-right: 35%;width: 50%}
+            /*-------end skils--------*/
+
+/*----------------------the end--------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------start all media-----*/
+@media only screen and (min-width : 769px) and (max-width : 991px){.file img{margin-left: 18%}}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 600px) and (max-width : 800px){
+    .header h2{
+    font-size: 80px;
+    width: 400px;
+    margin-left: 25%;
+    }
+    .header .line{margin-left: 25%;}
+    .title{margin-left: 20%;width: 70%}
+}
+}
+@media only screen and (min-width : 400px) and (max-width : 767px){.option{height: 500px}}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 265px) and (max-width : 767px){
+     .navbar-default .navbar-collapse,
+     .navbar-default .navbar-form{background-color: rgba(0,0,0,0.8)}
+    .last-page .last-a, .last-page .last-c,
+    .carousel-control, .carousel-inner{margin-top: 0}
+    .carousel-control, .carousel-control{margin-top: 50px}
+    .last-page .last-a, .last-page .last-c{color: aliceblue}
+    .option{height: 1000px}
+    .option-a h1, .option-b h1{margin-bottom: -6px;margin-top: -29px}
+    .option-b h3{margin-top: 40px}
+    .option-a p, .option-b p{padding-bottom: 150px;}
+}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 400px) and (max-width : 600px){
+    .header h2{
+    font-size: 60px;
+    width: 300px;
+    margin-left: 15%;
+    }
+    .header .line{
+    margin-left: 14%;
+    margin-top: 35px;
+    width: 64%}
+    .title{margin-left: 15%;margin-top: 70px}
+    .header .i{font-size: 20px}
+}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 265px) and (max-width : 400px){
+  .header h2{
+    font-size: 50px;
+    width: 200px;
+    margin-left: 10%;
+    }
+    .header h2 span{font-size: 55px;top: 50px}
+    .header .line{
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 18px;
+    }
+    .title{margin-left: 15%;margin-top: 50px}
+    .header i.fa-headphones{font-size: 50px}
+    .header .i{font-size: 12px;margin-top: 50px}
+    .option{height: 930px}
+}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 628px) and (max-width : 970px){
+                    /*--start-div 1-----*/
+.inf-part-1{width: 75%;height: auto}
+.inf-part-1 span{font-size: 40px}
+.inf-part-1 .right{margin-right: 11%;width: 73%;font-size: 13px}
+.inf-part-1 p{width: 80%}
+.inf-1 .icon{top: 0;left:-107px;margin-left: 2%} 
+/*------------start div 2----*/
+.inf-part-2{width: 60%;height: auto;padding-bottom: 12px}
+.inf-part-2 span{font-size: 40px}
+.inf-part-2 .right{margin-right: 11%;width: 73%;font-size: 13px}
+.inf-part-2 p{width: 80%}
+.inf-2 .icon{top: 67px;left: -81px;margin-left: 2%} 
+}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 435px) and (max-width : 627px){
+    .inf-part-1{display: none;
+        position: relative;
+        top: 79px;
+        left: 101px;
+        width: 53%;
+        height: auto;
+        background-color: #5f2d5f
+    }
+        .inf-1 .icon{left:5%}
+        /*--start div 2*/
+    .inf-2 .icon{left:5%}
+    .inf-part-2{display: none;
+        position: relative;
+        top: 79px;
+        left: 101px;
+        width: 53%;
+        height: auto;
+        background-color:dodgerblue
+    }
+}
+@media only screen and (min-width : 200px) and (max-width : 630px){
+    .oof{display: none}   
+}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 260px) and (max-width : 435px){
+    .inf-1, .inf-2{display: none}
+    .info-1 .all{
+        width: 140px;
+        height: 140px;
+        background-color: #f3eeee;
+        position: relative;
+        top: 0;
+        left: 20%;
+        box-shadow: 0px 0px 38px dodgerblue  inset, 0px 0px 41px dodgerblue;
+        padding:25px;
+        transform: rotate(45deg);
+        cursor: pointer
+    }
+    .info-1 .img {
+        width: 89px;
+        height: 84px;
+        background-color: #FFF;
+        padding: 22px;
+        padding-top: 14px;
+        box-shadow: 0px 0px 38px dodgerblue inset, 0px 0px 41px dodgerblue;
+        cursor: pointer
+    }
+    .info-1 .rotat .fa-lightbulb{transform: rotate(-45deg);color: dodgerblue}
+    .info-part-1 span {
+    color: red;
+    height: 80%;
+    padding-left: 76%;
+    font-size: 50px;
+    border-top: 3px solid #FFF
+    }
+    .skils .info-part-1{
+        width: 93%;
+        height: auto;
+        background-color:dodgerblue;
+        margin-left: 2%;
+        padding-top: 15%;
+        color: aliceblue;
+        padding-bottom: 20px;
+        margin-bottom: 50px
+    }
+    .info-part-1 p{padding: 8%;line-height: 1.5;border-bottom: 3px solid #FFF}
+    .info-part-1 h4{padding-left: 8%}
+    /*-----div 2-xs------*/
+    .info-2 .all{
+        width: 140px;
+        height: 140px;
+        background-color: #f3eeee;
+        position: relative;
+        top: 0;
+        left: 20%;
+        box-shadow: 0px 0px 38px orange  inset, 0px 0px 41px orange;
+        padding:25px;
+        transform: rotate(45deg);
+        cursor: pointer
+    }
+    .info-2 .img {
+        width: 89px;
+        height: 84px;
+        background-color: #FFF;
+        padding: 22px;
+        padding-top: 14px;
+        box-shadow: 0px 0px 38px orange inset, 0px 0px 41px orange;
+        cursor: pointer
+    }
+    .info-2 .rotat .fa-video{transform: rotate(-45deg);color: orange}
+    .info-part-2 span {
+    color: red;
+    height: 80%;
+    padding-left: 76%;
+    font-size: 50px;
+    border-top: 3px solid #FFF
+    }
+    .skils .info-part-2{
+        width: 93%;
+        height: auto;
+        background-color: orange;
+        margin-left: 2%;
+        padding-top: 15%;
+        color: aliceblue;
+        padding-bottom: 20px;
+        margin-bottom: 50px
+    }
+    .info-part-2 p{padding: 8%;line-height: 1.5;border-bottom: 3px solid #FFF}
+    .info-part-2 h4{padding-left: 8%}
+        /*-----div 3-xs------*/
+    .info-3 .all{
+        width: 140px;
+        height: 140px;
+        background-color: #f3eeee;
+        position: relative;
+        top: 0;
+        left: 20%;
+        box-shadow: 0px 0px 38px #5f2d5f  inset, 0px 0px 41px #5f2d5f;
+        padding:25px;
+        transform: rotate(45deg);
+        cursor: pointer
+    }
+    .info-3 .img {
+        width: 89px;
+        height: 84px;
+        background-color: #FFF;
+        padding:11px;
+        padding-top: 14px;
+        box-shadow: 0px 0px 38px #5f2d5f inset, 0px 0px 41px #5f2d5f;
+        cursor: pointer
+    }
+    .info-3 .rotat .fa-users{transform: rotate(-45deg);color: #5f2d5f}
+    
+
+    .info-part-3 span {
+    color: red;
+    height: 80%;
+    padding-left: 76%;
+    font-size: 50px;
+    border-top: 3px solid #FFF
+    }
+    .skils .info-part-3{
+        width: 93%;
+        height: auto;
+        background-color: #5f2d5f;
+        margin-left: 2%;
+        padding-top: 15%;
+        color: aliceblue;
+        padding-bottom: 20px;
+        margin-bottom: 50px
+    }
+    .info-part-3 p{padding: 8%;line-height: 1.5;border-bottom: 3px solid #FFF}
+    .info-part-3 h4{padding-left: 8%}
+}
+/*------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width : 435px) and (max-width :3000px) {
+    .skils .info-1, .skils .info-part-1,
+    .skils .info-2, .skils .info-part-2,
+    .skils .info-3, .skils .info-part-3, 
+     .info-part-1 p, .info-part-1 span, .info-part-1 h4,
+     .info-part-2 p, .info-part-2 span, .info-part-2 h4,
+     .info-part-3 p, .info-part-3 span, .info-part-3 h4
+
+    {display: none}
+
+}
+        /*------------------------------------end-all media--------------------*/
+
+
+/*--------------------------------------------------------start of animation---------------------------*/
+
+
+.option-a:hover h1, .option-b:hover h1{
+    -webkit-animation-name: shake;
+  animation-name: shake;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes shake {
+  0%, 100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  }
+  }
+  @keyframes shake {
+  0%, 100% {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  }
+  20%, 40%, 60%, 80% {
+  -webkit-transform: translate3d(10px, 0, 0);
+  transform: translate3d(10px, 0, 0);
+  }
+  } 
+
+
+.animat-p-history{ -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+
+.animat-h2-history{
+    -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes rotateInDownLeft {
+  0% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  @keyframes rotateInDownLeft {
+  0% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+  transform: rotate3d(0, 0, 1, -45deg);
+  opacity: 0;
+  }
+  100% {
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  } 
+
+.animat-p-option{
+    
+     -webkit-animation-name: zoomInRight;
+  animation-name: zoomInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+  transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+  transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+  }
+  @keyframes zoomInRight {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+  transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+  60% {
+  opacity: 1;
+  -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+  transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+  -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+  } 
+
+
+
